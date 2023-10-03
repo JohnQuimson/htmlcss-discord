@@ -70,25 +70,25 @@ Debug
 }
 
 .debug .social{
-    background-color: #f08080;
-    height: 300px;
-    border: 1px dashed black;
+    /* background-color: #f08080; */
+    /* height: 300px; */
+    /* border: 1px dashed black; */
 }
 
 .debug .info{
-    background-color: #20b2aa;
-    height: 300px;
-    border: 1px dashed black;
+    /* background-color: #20b2aa; */
+    /* height: 300px; */
+    /* border: 1px dashed black; */
 }
 
 .debug .info div{
-    border: 1px dashed white;
+    /* border: 1px dashed white; */
 }
 
 /* Debug footer-bottom */
 .debug .footer-bottom{
     background-color: #23272a;
-    border-top: 1px solid #969696;
+    border-top: 1px solid #23272a; 
 }
 
 .debug .cont-footer-bottom{
@@ -145,6 +145,10 @@ header{
 
 a{
     text-decoration: none;
+}
+
+ul{
+    list-style: none;
 }
 
 /*
@@ -297,21 +301,51 @@ Footer
  */
 
  /* footer-top */
+.footer-top{
+    color: white;
+    font-size: 11px;
+}
+
 .cont-footer-top{
     display: flex;
     width: 70%;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 10vh;
     padding-bottom: 20px;
+    border-bottom: 1px solid #4f5d8c;
 }
 
 .social{
     width: 30%;
 }
 
+h4{
+    color: #7289da;
+    font-size: 2vw;
+}
+
+/* Bandiera italia */
+.social img{
+    width: 20px;
+}
+
+.lingua{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
 .info{
     width: 70%;
     display: flex;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+.titolo{
+    color: #7289da;
+    font-size: 13px;
 }
 
 .info div{
@@ -325,6 +359,7 @@ Footer
     justify-content: space-between;
     padding: 10px 0;
     margin-top: 20px;
+    
 }
 
 .logo-bottom{
