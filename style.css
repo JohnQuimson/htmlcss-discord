@@ -92,12 +92,12 @@ Debug
 }
 
 .debug .cont-footer-bottom{
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
 }
 
 .debug .logo-bottom, .debug .bottone{
-    border: 1px dashed black;
-    background-color: #ffb6c1;
+    /* border: 1px dashed black; */
+    /* background-color: #ffb6c1; */
 }
 
 /*
@@ -136,11 +136,6 @@ header{
 .b-blue{
     background-color: #7983F5;
     color: white;
-}
-
-.paragrafo{
-    padding: 0 75px 20px;
-    line-height: 20px;
 }
 
 a{
@@ -250,7 +245,7 @@ Main
     width: 70%;
     justify-content: center;
     padding-top: 10vh;
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
     
 }
 
@@ -268,7 +263,7 @@ Main
 .cont p,
 .cont4 p{
     padding: 5px 15px;
-    line-height: 1.8vw;
+    line-height: 1.5vw;
     color: #23272A;
 }
 
@@ -290,8 +285,9 @@ Main
 h3{
     text-align: center;
     color: #23272A;
-    padding-top: 10vh;
-    padding-bottom: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+    font-weight: bold;
 }
 
 /*
@@ -334,6 +330,19 @@ h4{
     font-size: 12px;
 }
 
+/* Font awesome */
+.social-logo{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.social-logo i{
+    font-size: 15px;
+}
+/* Fine Font awesome */
+
 .info{
     width: 70%;
     display: flex;
@@ -362,10 +371,7 @@ li{
     
 }
 
-.logo-bottom{
-    padding: 3px;
-}
-
-.bottone{
-    padding: 3px;
+/* Logo footer */
+.cont-footer-bottom img{
+    height: 25px;
 }
