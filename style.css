@@ -28,11 +28,11 @@ Debug
 
 .debug .header-bottom{
     /* background-color: #00008b; */
-    border-bottom: 2px solid #add8e6;
+    /* border-bottom: 2px solid #add8e6; */
 }
 
 .debug .contenuto-headbottom{
-    height: 500px;
+    /* height: 500px; */
     /* background-color: #ee82ee; */
     border: 1px dashed black;
 }
@@ -145,7 +145,7 @@ Header
 .header-top{
     padding-top: 10px;
     background-image: url(img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -191,6 +191,7 @@ header a{
     width: 50%;
     margin-top: 25vh;
     text-align: center;
+    margin-bottom: 25vh;
 }
 
 h1{
