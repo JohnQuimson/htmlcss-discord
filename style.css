@@ -244,18 +244,20 @@ Main
     padding-bottom: 20px;
 }
 
-.sez1 .foto img{
+.foto img{
     width: 40vw;
 }
 
 .cont h2{
     font-size: 30px;
     padding: 20px 20px;
+    color: #23272A;
 }
 
 .cont p{
     padding: 5px 20px;
-    line-height: 2vw;
+    line-height: 1.8vw;
+    color: #23272A;
 }
 
 /*
