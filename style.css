@@ -1,0 +1,234 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+------------------ 
+Debug
+------------------ 
+ */
+.debug .header-top{
+    background-color: #add8e6;
+}
+
+.debug .container-header div{
+    background-color: #daa520;
+}
+
+.debug .container-header{
+    text-align: center;
+}
+
+.debug .logo, .debug .sito, .debug .login{
+    border: 1px dashed black;
+}
+
+.debug .header-bottom{
+    background-color: #00008b;
+    border-bottom: 2px solid #add8e6;
+}
+
+.debug .contenuto-headbottom{
+    height: 200px;
+    background-color: #ee82ee;
+    border: 1px dashed black;
+}
+
+/* Debug sezioni main*/
+.debug .testo, .debug .foto{
+    height: 250px;
+    border: 1px dashed black;
+    background-color: #1e90ff;
+}
+
+.debug .foto{
+    background-color: #ffc0cb; 
+}
+
+.debug .sez1, 
+.debug .sez3{
+    background-color: white;
+}
+
+.debug .sez2,
+.debug .sez4{
+    background-color: #d3d3d3;
+}
+
+.debug .coda{
+    height: 400px;
+    background-color: #228b22;
+    border: 1px dashed black;
+}
+
+/* Debug footer-top */
+.debug .footer-top{
+    background-color: #23272a;
+}
+
+.debug .social{
+    background-color: #f08080;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.debug .info{
+    background-color: #20b2aa;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.debug .info div{
+    border: 1px dashed white;
+}
+
+/* Debug footer-bottom */
+.debug .footer-bottom{
+    background-color: #23272a;
+    border-top: 1px solid #969696;
+}
+
+.debug .cont-footer-bottom{
+    background-color: #7fffd4;
+}
+
+.debug .logo-bottom, .debug .bottone{
+    border: 1px dashed black;
+    background-color: #ffb6c1;
+}
+
+/*
+------------------ 
+Common
+------------------ 
+ */
+.layout {
+    margin: 0 auto;
+}
+
+body{
+    font-size: 12px;
+}
+
+/*
+------------------ 
+Header
+------------------ 
+ */
+ .header-top{
+    padding-top: 10px;
+}
+
+.container-header div{
+    padding: 3px;
+}
+
+.container-header{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+/* Allineamenti testi header-top */
+.logo{
+    text-align: left;
+    width: 20%;
+}
+
+.sito{
+    text-align: center;
+    width: 60%;
+}
+
+.login{
+    text-align: right;
+    width: 20%;
+}
+
+.header-bottom{
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.contenuto-headbottom{
+    width: 50%;
+}
+
+
+/*
+------------------ 
+Main
+------------------ 
+ */
+.testo{
+    width: 60%;
+}
+
+.foto{
+    width: 40%;
+}
+
+.cont{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cont4{
+    width: 70%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*
+------------------ 
+Footer
+------------------ 
+ */
+
+ /* footer-top */
+.cont-footer-top{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.social{
+    width: 30%;
+}
+
+.info{
+    width: 70%;
+    display: flex;
+}
+
+.info div{
+    width: calc(100% / 4);
+}
+
+/* footer-bottom */
+.cont-footer-bottom{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.logo-bottom{
+    padding: 3px;
+}
+
+.bottone{
+    padding: 3px;
+}
