@@ -15,7 +15,7 @@ Debug
 }
 
 .debug .container-header div{
-    background-color: #daa520;
+    /* background-color: #daa520; */
 }
 
 .debug .container-header{
@@ -27,13 +27,13 @@ Debug
 }
 
 .debug .header-bottom{
-    background-color: #00008b;
+    /* background-color: #00008b; */
     border-bottom: 2px solid #add8e6;
 }
 
 .debug .contenuto-headbottom{
-    height: 200px;
-    background-color: #ee82ee;
+    height: 500px;
+    /* background-color: #ee82ee; */
     border: 1px dashed black;
 }
 
@@ -110,7 +110,31 @@ Common
 }
 
 body{
-    font-size: 12px;
+    font-size: 14px;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header{
+    color: white;
+}
+
+.button{
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.b-white{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.b-black{
+    background-color: #313338;
+    color: white;
+}
+
+a{
+    text-decoration: none;
 }
 
 /*
@@ -118,8 +142,11 @@ body{
 Header
 ------------------ 
  */
- .header-top{
+.header-top{
     padding-top: 10px;
+    background-image: url(img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .container-header div{
@@ -128,7 +155,7 @@ Header
 
 .container-header{
     display: flex;
-    justify-content: center;
+    align-items: center;
     width: 70%;
 }
 
@@ -141,11 +168,16 @@ Header
 .sito{
     text-align: center;
     width: 60%;
+    justify-content: space-between;
 }
 
 .login{
     text-align: right;
     width: 20%;
+}
+
+header a{
+    color: white;
 }
 
 .header-bottom{
@@ -157,7 +189,22 @@ Header
 
 .contenuto-headbottom{
     width: 50%;
+    margin-top: 25vh;
+    text-align: center;
 }
+
+h1{
+    font-size: 30px;
+    padding-bottom: 5vh;
+}
+
+.contenuto-headbottom p{
+    padding: 0 75px 20px;
+    line-height: 20px;
+}
+
+
+
 
 
 /*
